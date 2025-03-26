@@ -28,7 +28,7 @@ while (opcao!=5) {
 
     switch (opcao) {
         case 1:
-            System.out.println("Digite o nome do novo jogador, o nome do seu personagem e seu temperamento: ");
+            System.out.println("Digite o nome do novo jogador: ");
             String nomeDoJogador = entrada.nextLine();
             System.out.println("Digite o nome do personagem do jogador: ");
             String nomeDoPersonagem = entrada.nextLine();
